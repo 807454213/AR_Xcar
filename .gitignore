@@ -1,0 +1,44 @@
+# build artifacts
+/build/
+/build-*/
+/test/build/
+/test/shm_test/build/
+/Position/**/build/
+
+*.o
+*.a
+*.so
+*.d
+*.bin
+*.pdf
+
+# local runtime state
+/logs/
+*.log
+configs/config.local.json
+AI/ocr_test
+
+# model and dataset artifacts
+*.rknn
+*.onnx
+*.pdmodel
+*.pdiparams
+*.ttf
+*.otf
+*.ttc
+*.pgm
+AI/base/rknpu2/runtime/**/rknn_server
+AI/PPOCR-1/PPOCR-Det/3rdparty/opencv/**/bin/opencv_version
+/test/Keyboard_control/Keyboard_control
+/test/test_fps
+
+# externally published documents
+/第21届智能车竞赛人工智能模型组比赛细则.md
+
+# media / recordings
+*.mp4
+*.jpg
+*.png
+*.match_record*
+
+

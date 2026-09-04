@@ -1,0 +1,8 @@
+﻿{
+    "app": {
+        "runtimeMode": "vision",
+        "llmAccessKey": "",
+        "llmSecretKey": "",
+        "llmModel": "ernie-4.5-turbo-32k"
+    }
+}

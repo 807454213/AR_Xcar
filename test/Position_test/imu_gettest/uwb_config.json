@@ -1,0 +1,37 @@
+{
+    "uwb_setup": {
+        "anchors": {
+            "origin_id": 0,
+            "x_axis_id": 1,
+            "y_axis_id": 3,
+            "diag_id": 2
+        },
+        "field": {
+            "width_m": 4.0,
+            "length_m": 5.0
+        },
+        "hardware": {
+            "anchor_height_m": 1.55,
+            "tag_height_m": 0.16,
+            "uwb_var": 0.0025
+        }
+    },
+    "network_target": {
+        "target_ip": "192.168.123.36",
+        "data_port": 9000,
+        "unity_port": 9003
+    },
+    "imu_setup": {
+        "acc_n": 0.0058,              
+        "gyr_n": 0.00087,
+        "acc_w": 0.001,
+        "gyr_w": 0.00005
+    },
+    "nhc_setup": {
+        "noise_vy": 0.05,
+        "noise_vz" : 0.02,
+        "noise_pz" : 0.01,
+        "fixed_z" : 0.3,
+        "noise_vx" : 0.05
+    }
+}
